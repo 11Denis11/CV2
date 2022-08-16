@@ -6,7 +6,7 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #66BFBF;
+  border-color: #DDDDDD;
   border-width: 5px;
   width: 10%;
 }
@@ -28,6 +28,7 @@ h3 {
 }
 p {
   color:#40514E;
+  line-height: 2;
 }
 
 /* ------------------------------------ */
@@ -35,9 +36,13 @@ p {
 .hello {
   margin-top: 5px;
 }
+.profile_intro {
+  width:40%;
+  margin:auto;
+}
 .Denis {
   width:350px;
-  height:300px;
+  height:350px;
   opacity:1;
   position: absolute;
   border-radius: 130px;
@@ -46,7 +51,7 @@ p {
 }
 .Denis3 {
   width:350px;
-  height:300px;
+  height:350px;
   position:relative;
   opacity:0;
   border-radius: 130px;
@@ -62,19 +67,25 @@ p {
   width: 50%;
   margin:100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 /* ------------------------------------ */
 .teachings {
-  width: 25%;
+  height:171px;
+  width: 27%;
   float:left;
   margin-right: 30px;
 }
 .comp-gif {
-  width:200px;
-  height:150px;
+  height:171px;
+  width:27%;
   float:right;
   margin-left: 30px;
+}
+.QA-png {
+  height:171px;
+  width:27%;
+  float:left;
+  margin-right: 30px;
 }
 /* ------------------------------------ */
 .span1 {
@@ -91,7 +102,7 @@ p {
 }
 .middle-container {
   background-color:#F9F3EE;
-  padding-bottom: 10px;
+  padding: 50px 0;
 }
 .bottom-container {
   background-color:#66BFBF;
@@ -99,8 +110,14 @@ p {
   word-spacing:2px;
 }
 
+.bottom_p {
+  color: white;
+  font-size: 0.75rem;
+  padding: 15px 0;
+}
 .footer-link {
   color:#11999E;
+  text-decoration: none;
 }
 .footer-link:hover {
   color:black;
